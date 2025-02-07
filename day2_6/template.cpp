@@ -84,33 +84,37 @@ using namespace std;
 //     cout<<"Sum of integer: "<<sum(5,6)<<endl;
 //     cout<<"Sum of double: "<<sum(5.1, 6.2)<<endl;
 //     cout<<"Sum of char: "<<sum('A','B')<<endl;
+// // }
+
+
+
+
+// #include<typeinfo>
+
+// //template class
+// template<typename lpu>
+// class ops{
+//     lpu a,b,c;
+//     public:
+//     lpu add(){
+//         cout<<"Enter a & b of type "<<typeid(lpu).name()<<": ";
+//         cin>>a>>b;
+//         c=a+b;
+        
+//         return c;
+//     }
+// };
+// int main(){
+//     ops<int> i;
+//     cout<<"Sum of integer: "<<i.add()<<endl;
+//     ops<double> d;
+//     cout<<"Sum of double: "<<d.add()<<endl;
+//     ops<char> c;
+//     cout<<"Sum of char: "<<c.add()<<endl;
 // }
 
 
 
 
-#include<typeinfo>
-
-//template class
-template<typename lpu>
-class ops{
-    lpu a,b,c;
-    public:
-    lpu add(){
-        cout<<"Enter a & b of type "<<typeid(lpu).name()<<": ";
-        cin>>a>>b;
-        c=a+b;
-        
-        return c;
-    }
-};
-int main(){
-    ops<int> i;
-    cout<<"Sum of integer: "<<i.add()<<endl;
-    ops<double> d;
-    cout<<"Sum of double: "<<d.add()<<endl;
-    ops<char> c;
-    cout<<"Sum of char: "<<c.add()<<endl;
-}
 
 

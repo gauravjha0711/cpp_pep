@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1738735263 source:f:\lpu\batch 01\day19 read write\main.cpp
+	"headers.h"
+	"dfh.h"
+
+1738733050 f:\lpu\batch 01\day19 read write\headers.h
+	<iostream>
+	<string>
+	<fstream>
+
+1738734953 f:\lpu\batch 01\day19 read write\dfh.h
+
